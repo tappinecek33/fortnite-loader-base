@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="https">
+      <UniqueIdentifier>{dce02740-cae1-473c-858e-c0917613726b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="md5">
+      <UniqueIdentifier>{3590eb69-def2-446b-be77-7501e46ea8ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto">
+      <UniqueIdentifier>{93e99035-f127-4b17-8163-e136749c8b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="print">
+      <UniqueIdentifier>{2050c90f-6cd6-4776-846d-bf82e06f728c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hwid">
+      <UniqueIdentifier>{3946c18f-b119-4d11-b2fd-8ca3baad1445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth">
+      <UniqueIdentifier>{cb944a10-fb6b-4f59-8acc-328d613d9414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="client.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="lw_http.cpp">
+      <Filter>https</Filter>
+    </ClCompile>
+    <ClCompile Include="md5wrapper.cpp">
+      <Filter>md5</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>md5</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="print.cpp">
+      <Filter>print</Filter>
+    </ClCompile>
+    <ClCompile Include="hwid.cpp">
+      <Filter>hwid</Filter>
+    </ClCompile>
+    <ClCompile Include="auth.cpp">
+      <Filter>auth</Filter>
+    </ClCompile>
+    <ClCompile Include="cleaner.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lw_http.hpp">
+      <Filter>https</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>md5</Filter>
+    </ClInclude>
+    <ClInclude Include="md5wrapper.h">
+      <Filter>md5</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="print.h">
+      <Filter>print</Filter>
+    </ClInclude>
+    <ClInclude Include="hwid.h">
+      <Filter>hwid</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.h">
+      <Filter>auth</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
